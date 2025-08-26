@@ -23,12 +23,18 @@ public class RunCalculation {
     and calculate(8, 3, '/') should return 2.66666667.*/
 
         RunCalculation runCalculation = new RunCalculation();
-        System.out.println(runCalculation.returnResult(4, 2, '+'));
 
-        System.out.println(runCalculation.returnResult(10, 3, '-'));
+        System.out.println("4, 2, '+' = "+runCalculation.returnResult(4, 2, '+'));
+        System.out.println();
 
-        System.out.println(runCalculation.returnResult(3, 5, '*'));
-        System.out.println(runCalculation.returnResult(8, 3, '/'));
+        System.out.println("10, 3, '-' = "+runCalculation.returnResult(10, 3, '-'));
+        System.out.println();
+
+        System.out.println("3, 5, '*' = "+runCalculation.returnResult(3, 5, '*'));
+        System.out.println();
+
+        System.out.println("8, 3, '/' = "+runCalculation.returnResult(8, 3, '/'));
+        System.out.println();
 
 
     }
