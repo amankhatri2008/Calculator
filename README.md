@@ -16,3 +16,4 @@ mvn clean test exec:java
 5. not sure.....what went wrong
 6. not sure.....what went wrong
 7. Unable to justify use of float,BigDecimal.....
+8. Instead of suggesting list , should have used set for checking eligible operator
