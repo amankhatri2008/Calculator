@@ -2,4 +2,6 @@
 
 Pre Req- Java 17 and Maven
 
-Simply run mvn clean test exec:java
+Simply run following command
+
+mvn clean test exec:java
